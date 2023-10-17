@@ -21,3 +21,7 @@ Remarks:
 	note: This error originates from a subprocess, and is likely not a problem with pip.
    I have no idea why this happened. Therefore, I have to write the pip3 install separately.
 8. More exception cases can be added such as when there is no csv file under the path.
+9. config.yaml file has not been uploaded. It is in the format as follow:
+	aws:
+	  access_key: "access_key"
+	  secret_key: "secret_key"
