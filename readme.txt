@@ -13,7 +13,7 @@ Remarks:
 	py4j.protocol.Py4JJavaError: An error occurred while calling o29.csv. 
 	: java.lang.RuntimeException: java.lang.ClassNotFoundException: Class
 	org.apache.hadoop.fs.s3a.S3AFileSystem not found
-5. Use VSC to write the python code and run the code with WSL running ubuntu 22.04
+5. I use VSC to write the python code and run the code with WSL running ubuntu 22.04
 6. In the Dockerfile, I have an issue using pip to install packages in requirements.txt. The error message is 
 	Getting requirements to build wheel: finished with status 'error'
 	15.60   error: subprocess-exited-with-error
