@@ -10,7 +10,8 @@ Remarks:
 2. The process is idempotent with overwrite mode selected when writing the csv file.
 3. Use coalesce(1) to combine the csv files into a single file as the dataframe is partitioned. 
 4. When setup the spark session, using config to add ('spark.jars.packages', 'org.apache.hadoop:hadoop-aws:3.3.4,org.apache.hadoop:hadoop-common:3.3.4') to avoid error: 
-	py4j.protocol.Py4JJavaError: An error occurred while calling o29.csv. : java.lang.RuntimeException: java.lang.ClassNotFoundException: Class
+	py4j.protocol.Py4JJavaError: An error occurred while calling o29.csv. 
+	: java.lang.RuntimeException: java.lang.ClassNotFoundException: Class
 	org.apache.hadoop.fs.s3a.S3AFileSystem not found
 5. Use argparse to set up the parameters when running with bash, restrict the datetime format in '%Y/%m/%d' and make sure the input date is zero-padded.
 6. Use VSC to write the python code and run the code with WSL running ubuntu 22.04
